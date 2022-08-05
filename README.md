@@ -38,11 +38,6 @@
 
 while creating this card I learn more about background property
 
-To see how you can add code snippets, see below:
-
-```html
-
-```
 ```css
 body {
     background-image: url("images/bg-pattern-bottom.svg");
