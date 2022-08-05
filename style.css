@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    text-align: center;
+}
+
+body {
+    background-image: url("images/bg-pattern-bottom.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom -282px right -528px;
+    background-color: hsl(185, 75%, 39%);
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+main {
+    background-image: url("images/bg-pattern-top.svg");
+    background-position: left -490px top -346px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    border-radius: 12px;
+    width: 250px;
+    height: 300px;
+    background-color: white;
+}
+
+.bg {
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    width: 100%;
+    height: 100px;
+    background-image: url("./images/bg-pattern-card.svg");
+    background-repeat: repeat;
+    background-size: contain;
+}
+
+.name {
+    display: flex;
+    flex-direction: column;
+    margin-top: -40px;
+    margin-bottom: 20px;
+}
+
+.victor-img {
+    border-radius: 50%;
+    width: 5rem;
+    border: 4px solid white;
+    margin-bottom: 12px;
+}
+
+.followers {
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    border-top: 0.5px solid hsl(227, 10%, 46%);
+    display: flex;
+    padding: 18px;
+    justify-content: space-around;
+    background-color: white;
+}
+
+.followblock {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.victor {
+    font-weight: 700;
+    line-height: 1.5rem;
+}
+
+span {
+    font-weight: 400;
+    color: hsl(0, 0%, 59%);
+}
+
+.london {
+    font-size: 14px;
+    font-weight: 400;
+    color: hsl(0, 0%, 59%);
+}
+
+.numbers {
+    font-weight: 700;
+}
+
+.stats {
+    font-weight: 400;
+    font-size: 12px;
+    color: hsl(0, 0%, 59%);
+}
+
+@media(min-width:430px) {
+    main {
+        background-position: left -427px top -342px;
+    }
+    body {
+        background-position: bottom -387px right -410px;
+    }
+    .card {
+        border-radius: 18px;
+        width: 324px;
+        height: 354px;
+    }
+    .bg {
+        border-top-left-radius: 18px;
+        border-top-right-radius: 18px;
+        width: 100%;
+        height: 118px;
+    }
+    .name {
+        margin-bottom: 30px;
+    }
+    .victor-img {
+        width: 6rem;
+    }
+    .london {
+        font-size: 15px;
+    }
+    .followers {
+        border-bottom-left-radius: 18px;
+        border-bottom-right-radius: 18px;
+    }
+}
+
+@media(min-width:1000px) {
+    main {
+        background-position: left -537px top -584px;
+    }
+    body {
+        background-position: bottom -653px right -456px;
+    }
+}
+
+@media(min-width:1400px) {
+    main {
+        background-position: left -685px top -905px;
+    }
+    body {
+        background-position: bottom -1042px right -535px;
+    }
+}
