@@ -81,6 +81,7 @@ main {
 span {
     font-weight: 400;
     color: hsl(0, 0%, 59%);
+    margin-left: 5px;
 }
 
 .london {
